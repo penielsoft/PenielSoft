@@ -1,0 +1,385 @@
+/*Diseño CSS pagina web*/
+body p {
+    font-size: 1.3em;
+}
+/* Menú de navegación */
+nav {
+    background-color: #212121;
+}
+.logo {
+    font-size: 2rem;
+    color: #e1e1e1;
+    font-weight: bold;
+}
+.logo2 {
+    font-size: 2rem;
+    color:  #0581fe;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -8px;
+}
+#nav-mobile{
+    background-color: #212121;
+}
+/* Sección de servicios */
+#servicios h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#servicios h5 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+#servicios p {
+    text-align: center;
+}
+#servicios a {
+    background-color:#0581fe;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-transform: none;
+}
+#servicios .icon-block {
+    margin-top: 25px;
+}
+#servicios .fas {
+    font-size: 5rem;
+    margin-left: 25px;
+    color: #212121;
+}
+#servicios .fas:hover {
+    color:#0581fe;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+#servicios #boton1 i{
+    color: white;
+    font-size: 15px;
+    margin-left: -2px;
+}
+#servicios #boton1 {
+    margin-top: -15px;
+}
+/* Sección de nosotros */
+#nosotros {
+    background-color: #212121;
+    color: white;
+}
+#nosotros h2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#nosotros h4 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#nosotros p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#nosotros .logo3 {
+    color: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+#nosotros .logo4 {
+    color:  #0581fe;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 2px;
+    font-size: 20px;
+}
+#nosotros #intro {
+    font-size: 1.3em;
+    margin-bottom: 75px;
+}
+#nosotros .imagen-fondo {
+    background-image: url(../img/business-582912_1920.jpg);
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 275px;
+    border-radius: 10px;
+}
+#nosotros .imagen-fondo2 {
+    background-image: url(../img/hacker-1569744_1920.jpg);
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+#nosotros span {
+    font-weight: 600;
+    color: #0581fe;
+    font-style: italic;
+    margin-right: 1px;
+}
+/*Sección equipo*/
+#equipo h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#equipo h4 {
+    text-align: center;
+}
+#equipo p {
+    margin-top: 25px;
+}
+#equipo .span-text{
+    font-style: italic;
+    font-weight: bold;
+}
+#equipo .card {
+    margin-top: 25px;
+    background-color: #212121; 
+}
+#equipo a {
+    margin-top: 25px;
+    background-color: #0581fe;
+}
+#equipo .italic-text{
+    font-style: italic;
+}
+#equipo .card-reveal{
+    background-color: #212121;
+    color: #e1e1e1;
+}
+#equipo .card-reveal  i{
+    color: #e1e1e1;
+}
+/*Sección escogenos*/
+#escogenos{
+    background-color: #212121;
+    color: white;
+}
+#escogenos h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#escogenos h4 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+#escogenos h5 {
+    text-decoration: underline;
+}
+#escogenos .tabs{
+    border-radius: 5px;
+    background-color: #212121;
+}
+#escogenos .tabs .indicator { /*Linea inferior*/
+    background-color: #0581fe;
+}
+
+#escogenos .tab a:focus{
+    background-color: #212121;
+}
+#escogenos .tab a {
+    color: white;
+    font-size: 18px; 
+}
+#escogenos p, ol {
+    font-size: 18px;
+    text-align: justify;
+}
+#escogenos .color{
+    background-color: #e1e1e1;
+    color: #212121;
+    border-radius: 5px;
+}
+/*Contenedores parallax*/
+.parallax-container{
+    height: 250px;
+}
+.parallax-container::before{
+    content: "";
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+@media(max-width: 600px){
+    .parallax-container{
+        height: 200px;
+    }
+    .parallax-container::before{
+        content: "";
+        height: 200px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        opacity: 0.4;
+    }
+}
+.content {
+    height: 250px;
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: url(./../img/caracas-264581_1920.jpg);
+     /*alineacion del texto*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h4 {
+    color: white;
+}
+.content:before {
+    content: "";
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+}
+@media(max-width: 600px) {
+    .content {
+        height: 250px;
+        background-position: center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-image: url(./../img/caracas-264581_1920.jpg);
+        /*alineacion del texto*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content h4 {
+        color: white;
+    }
+    .content:before {
+        content: "";
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        opacity: 0.2;
+    }
+}
+/*Seccion planes*/
+#planes h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#planes .collapsible{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#planes .collapsible-header{
+    background-color: #212121;
+    color: #e1e1e1;
+}
+#planes .color:hover{
+    color: #0581fe;
+}
+#planes table{
+    font-size: 18px;
+}
+#planes .collapsible-header{
+    font-size: 18px;
+}
+#planes .collapsible-header:hover{
+    color:#0581fe;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+/*Seccion contactanos*/
+#contactanos {
+    background-color: #212121;
+}
+#contactanos p {
+    color: #e1e1e1;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+#contactanos button {
+    text-transform: none;
+    margin-top: 25px;
+    background-color: #0581fe;
+}
+#contactanos .card-panel{
+    margin-bottom: 75px;
+}
+/*Formualrio*/
+.input-field .prefix.active{
+    color: #0581fe; 
+}
+/*Footer de la pagina*/
+footer{
+    background-color: #e1e1e1;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+footer .container{
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+footer .row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+@media(max-width: 600px) {
+    footer .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        margin-right: 5px;
+    }
+    footer .logo2 {
+        font-size: 20px;
+        color:  #0581fe;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: -8px;
+    }
+}
+footer .modal h4 {
+    margin-bottom: 25px;
+}
+footer .modal li {
+    font-size: 16px;
+    line-height: 25px;
+}
